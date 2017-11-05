@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="159px" height="48px" viewBox="0 0 159 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mysite" transform="translate(-55.000000, -55.000000)">
+            <g id="logo" transform="translate(55.000000, 55.000000)">
+                <rect id="Rectangle-2" fill="#FF006E" style="mix-blend-mode: multiply;" x="0" y="0" width="48" height="48"></rect>
+                <polygon id="NIVANOV" fill="#FFFFFF" points="39.896 19.004 39.896 25.892 39.616 25.892 35.766 19.004 33.162 19.004 33.162 29 35.066 29 35.066 22.112 35.346 22.112 39.196 29 41.8 29 41.8 19.004"></polygon>
+                <g id="Group" transform="translate(54.000000, 18.000000)" fill="#00006E">
+                    <polygon id="Path" points="0.18 1.004 0.18 11 2.266 11 2.266 1.004"></polygon>
+                    <polygon id="Path" points="16.69 11 20.162 11 23.102 1.004 20.974 1.004 18.748 8.984 18.132 8.984 15.906 1.004 13.75 1.004"></polygon>
+                    <path d="M40.508,11 L39.696,8.298 L35.888,8.298 L35.076,11 L33.018,11 L36.196,1.004 L39.43,1.004 L42.622,11 L40.508,11 Z M37.47,3.006 L36.42,6.478 L39.136,6.478 L38.086,3.006 L37.47,3.006 Z" id="Combined-Shape"></path>
+                    <polygon id="Path" points="60.77 1.004 60.77 7.892 60.49 7.892 56.64 1.004 54.036 1.004 54.036 11 55.94 11 55.94 4.112 56.22 4.112 60.07 11 62.674 11 62.674 1.004"></polygon>
+                    <path d="M79.38,0.822 C82.544,0.822 84.252,3.062 84.252,6.002 C84.252,8.942 82.544,11.182 79.38,11.182 C76.216,11.182 74.508,8.942 74.508,6.002 C74.508,3.062 76.216,0.822 79.38,0.822 Z M79.38,9.32 C81.256,9.32 82.11,7.85 82.11,6.002 C82.11,4.154 81.256,2.684 79.38,2.684 C77.518,2.684 76.65,4.154 76.65,6.002 C76.65,7.85 77.518,9.32 79.38,9.32 Z" id="Combined-Shape"></path>
+                    <polygon id="Path" points="98.004 11 101.476 11 104.416 1.004 102.288 1.004 100.062 8.984 99.446 8.984 97.22 1.004 95.064 1.004"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
