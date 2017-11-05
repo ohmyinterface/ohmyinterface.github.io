@@ -72,6 +72,9 @@ $( window ).ready(function() {
       marginTop:40,
         fontSize:80,
   },100, );
+     $('#fullPage').delay(1500).animate({
+        opacity:1,
+  },100, );
     
   $('.preloader').delay(1500).animate({
     opacity: 0,
