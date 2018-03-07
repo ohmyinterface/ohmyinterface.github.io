@@ -2,6 +2,120 @@
 <html>
 
 <head>
+        <script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+        // This automatically sets the right viewport scale on mobile devices
+        // and adds info for Apple banner.
+        (function () {
+            var projectUrl = encodeURIComponent(window.location.href);
+            var banner = document.createElement("meta");
+            banner.setAttribute("name", "apple-itunes-app");
+            banner.content = "app-id=1124920547, app-argument="+projectUrl;
+            document.querySelector("head").appendChild(banner);
+
+            var scale = 1 / window.devicePixelRatio
+            var viewport = "width=device-width, height=device-height, initial-scale=" + scale + ", maximum-scale=" + scale + ", user-scalable=no, viewport-fit=cover"
+            var iOS = /iPad|iPhone|iPod/.test(navigator.platform)
+            if (iOS) { viewport += ", shrink-to-fit=no" }
+            document.write("<meta name=\"viewport\" content=\"" + viewport + "\">")
+        })();
+    </script><meta name="apple-itunes-app" content="app-id=1124920547, app-argument=https%3A%2F%2Fframer.cloud%2FyYLja"><meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, maximum-scale=0.5, user-scalable=no, viewport-fit=cover">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar {
+            position: fixed;
+            width: 313px;
+            height: 100vh;
+            left: 0;
+            top: 0;
+            z-index: 100;
+            border-right: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .close {
+            position: fixed;
+            z-index: 200;
+            left: 291px;
+            top: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .viewer {
+            position: fixed;
+            left: 313px;
+            top: 0;
+            height: 100vh;
+            min-width: calc(100% - 313px);
+            margin: 0;
+            padding: 0;
+        }
+
+        .mobile .sidebar,
+        .mobile .close {
+            display: none;
+        }
+
+        .mobile .viewer {
+            left: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 1024px) {
+            .sidebar {
+                width: 249px;
+            }
+            .close {
+                left: 227px;
+            }
+            .viewer {
+                position: fixed;
+                left: 249px;
+                top: 0;
+                height: 100vh;
+                min-width: calc(100% - 249px);
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        @media (max-width: 736px) {
+            .sidebar,
+            .close {
+                display: none;
+            }
+            .viewer {
+                left: 0;
+                width: 100%;
+            }
+        }
+    </style>
+
+    <title>Framer Cloud — BM_v2</title>
+
+    <!--Touchicons-->
+    <link rel="apple-touch-icon" href="https://framer.cloud/yYLja/89/framer/images/icon-120.png">
+    <link rel="apple-touch-icon" href="https://framer.cloud/yYLja/89/framer/images/icon-76.png" sizes="76x76">
+    <link rel="apple-touch-icon" href="https://framer.cloud/yYLja/89/framer/images/icon-120.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="https://framer.cloud/yYLja/89/framer/images/icon-152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="https://framer.cloud/yYLja/89/framer/images/icon-180.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="https://framer.cloud/yYLja/89/framer/images/icon-192.png" sizes="192x192">
+
+    <!--Social Data-->
+    <meta property="og:title" content="BM_v2">
+    <meta property="og:description" content="This project was made with Framer, a design tool for turning original concepts into working prototypes.">
+    <meta property="og:image" content="https://framer.cloud/yYLja/89/framer/social-1200x630.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:title" content="BM_v2">
+    <meta name="twitter:description" content="This project was made with Framer, a design tool for turning original concepts into working prototypes.">
+    <meta name="twitter:site" content="@framer">
+    <meta name="twitter:creator" content="undefined">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://framer.cloud/yYLja/89/framer/social-880x460.png">
 	<meta charset="utf-8">
 	<meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -38,6 +152,17 @@
 </head>
 
 <body>
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-37076997-11', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </body>
 
 </html>
